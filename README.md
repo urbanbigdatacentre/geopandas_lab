@@ -24,4 +24,9 @@ conda install -c conda-forge contextily
 conda install -c conda-forge pyarrow
 conda install -c conda-forge geoplot
 conda install -c conda-forge seaborn
+
+#Start the  jupyter lab
+
+jupyter lab
+
 ```
