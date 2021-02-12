@@ -30,6 +30,7 @@ conda install -c conda-forge contextily
 conda install -c conda-forge pyarrow
 conda install -c conda-forge geoplot
 conda install -c conda-forge seaborn
+conda install -c conda-forge descartes 
 
 #Start the  jupyter lab
 
