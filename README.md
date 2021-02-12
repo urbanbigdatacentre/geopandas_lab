@@ -9,11 +9,15 @@ The lab is going to be run in jupyter notebook
 
 ## Lab requirements
 
- - Python 3.7
+Please create new environmet for this lab using  **Python 3.7**
  
 Using Anaconda please install the following 
 
 ```python
+
+#Create new environment
+
+conda create --name myenv python=3.7
 
 # Install jupyter lab
 conda install jupyterlab -c conda-forge
