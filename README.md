@@ -46,6 +46,6 @@ jupyter lab
 
 ```
 
-More information about creating python virtual environment with conda from [here][blog].
+More information about creating python virtual environment with conda can be found from [here][blog].
 
 [blog]: https://heartbeat.fritz.ai/creating-python-virtual-environments-with-conda-why-and-how-180ebd02d1db
