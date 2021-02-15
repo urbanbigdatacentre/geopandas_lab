@@ -19,6 +19,10 @@ Using [Anaconda](https://docs.anaconda.com/anaconda/install/)  please install th
 
 conda create --name myenv python=3.7
 
+#Make sure that you are going to work in newly created environment
+
+conda activate myenv
+
 # Install jupyter lab
 conda install jupyterlab -c conda-forge
 
