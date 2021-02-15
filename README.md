@@ -11,7 +11,7 @@ The lab is going to be run in jupyter notebook
 
 Please create new environmet for this lab using  **Python 3.7**
  
-Using Anaconda please install the following 
+Using [Anaconda](https://docs.anaconda.com/anaconda/install/)  please install the following 
 
 ```python
 
