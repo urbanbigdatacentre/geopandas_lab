@@ -1,9 +1,8 @@
 ![logo](./images/ubdc_logo.png)
 
-# Intro to geospatial analysis using Python
+# Intro to geospatial analysis using Python - PTUA 2021
 
-This is repo containing materials for masters lab
-
+This is repo containing materials for Urban Analytics MSc lab
 
 The lab is going to be run in jupyter notebook
 
@@ -46,3 +45,7 @@ conda install -c conda-forge jupyterlab matplotlib mapclassify contextily pyarro
 jupyter lab
 
 ```
+
+More information about creating python virtual environment with conda from [here][blog].
+
+[blog]: https://heartbeat.fritz.ai/creating-python-virtual-environments-with-conda-why-and-how-180ebd02d1db
