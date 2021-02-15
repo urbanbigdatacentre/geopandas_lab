@@ -36,6 +36,11 @@ conda install -c conda-forge geoplot
 conda install -c conda-forge seaborn
 conda install -c conda-forge descartes 
 
+
+#Alternatively run the installation in one line
+
+conda install -c conda-forge jupyterlab matplotlib mapclassify contextily pyarrow geoplot seaborn descartes 
+
 #Start the  jupyter lab
 
 jupyter lab
