@@ -1,9 +1,8 @@
 ![logo](./images/ubdc_logo.png)
 
-# Intro to geospatial analysis using Python
+# Intro to geospatial analysis using Python - PTUA 2021
 
-This is repo containing materials for masters lab
-
+This is repo containing materials for Urban Analytics MSc lab
 
 The lab is going to be run in jupyter notebook
 
@@ -15,6 +14,14 @@ Using [Anaconda](https://docs.anaconda.com/anaconda/install/)  please install th
 
 ```python
 
+#Check current conda channel priority
+
+conda config --get channels
+
+#Switch your default conda channel to conda-forge and set it as the highest priority
+
+conda config --add channels conda-forge 
+
 #Create new environment
 
 conda create --name myenv python=3.7
@@ -22,6 +29,9 @@ conda create --name myenv python=3.7
 #Make sure that you are going to work in newly created environment
 
 conda activate myenv
+
+# Install python 3.7
+conda install -c conda-forge python=3.7
 
 # Install jupyter lab
 conda install jupyterlab -c conda-forge
@@ -39,10 +49,17 @@ conda install -c conda-forge descartes
 
 #Alternatively run the installation in one line
 
-conda install -c conda-forge jupyterlab matplotlib mapclassify contextily pyarrow geoplot seaborn descartes 
+conda install -c conda-forge jupyterlab matplotlib geopandas mapclassify contextily pyarrow geoplot seaborn descartes 
 
 #Start the  jupyter lab
 
 jupyter lab
 
 ```
+
+More information about creating python virtual environment with conda can be found from [here][blog].
+More details about managing conda channel can be found from [1][1] and [2][2].
+
+[blog]: https://heartbeat.fritz.ai/creating-python-virtual-environments-with-conda-why-and-how-180ebd02d1db
+[1]: https://stackoverflow.com/questions/54150169/how-update-remove-conda-forge-channel-from-anaconda/54150817
+[2]: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-channels.html
